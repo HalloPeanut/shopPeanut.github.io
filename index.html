@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bizarre Shop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Karma", sans-serif
+        }
+        
+        .w3-bar-block .w3-bar-item {
+            padding: 20px
+        }
+    </style>
+</head>
+
+<body class="w3-purple">
+
+    <!-- Sidebar (hidden by default) -->
+    <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
+        <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+    </nav>
+
+    <!-- Top menu -->
+    <div class="w3-top">
+        <div class="w3-black w3-xlarge" style="max-width:1200px;margin:auto">
+            <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+            <div class="w3-right w3-padding-16">Mail</div>
+            <div class="w3-center w3-padding-16">Bizare Adavature</div>
+        </div>
+    </div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+            <div class="w3-quarter">
+                <img src="Titani3090.png" alt="Sandwich" style="width:100%">
+                <h3>GVN TITAN plus i3090</h3>
+                <p>5.146,90$</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="3080Ti.png" alt="Steak" style="width:100%">
+                <h3>GVN TITAN plus a3080Ti</h3>
+                <p>4.374,86$</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="i3080Ti.png" alt="Cherries" style="width:100%">
+                <h3>GVN TITAN Plus i3080Ti</h3>
+                <p>3.860,17$</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="titanplusi3080.png" alt="Pasta and Wine" style="width:100%">
+                <h3>GVN TITAN Plus i3080</h3>
+                <p>3.606,26$</p>
+            </div>
+        </div>
+
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center">
+            <div class="w3-quarter">
+                <img src="Lap1.jpg" alt="Popsicle" style="width:100%">
+                <h3>Laptop Acer Predator Triton 300 PT315 53 71DJ i7 (NH.QDSSV.001)</h3>
+                <p>2.573,45$</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="Lap2.jpg" alt="Salmon" style="width:100%">
+                <h3>Laptop MSI GP76 11UG i7 (435VN)</h3>
+                <p>2.273,21$</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="Lap3.jpg" alt="Sandwich" style="width:100%">
+                <h3>Laptop MSI Gaming Leopard GP76 11UG i7 (823VN)</h3>
+                <p>2.230,32$</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="Lap4.jpg" alt="Croissant" style="width:100%">
+                <h3>Laptop MSI Gaming GE66 Raider 11UG i7 11800H (258VN)</h3>
+                <p>2.530,56$</p>
+            </div>
+        </div>
+
+
+        <!-- Third Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center">
+            <div class="w3-quarter">
+                <img src="Vr1.png" alt="Popsicle" style="width:100%">
+                <h3>Oculus Quest 2</h3>
+                <p>299$</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="Vr2.png" alt="Salmon" style="width:100%">
+                <h3>Sony PlayStation VR</h3>
+                <p>349.99$</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="Vr3.png" alt="Sandwich" style="width:100%">
+                <h3>Valve Index VR Kit</h3>
+                <p>1.269,99$</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="Vr4.png" alt="Croissant" style="width:100%">
+                <h3>HTC Vive Pro 2</h3>
+                <p>1.299$</p>
+            </div>
+        </div>
+
+
+        <!-- fourth Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center">
+            <div class="w3-quarter">
+                <img src="france.png" alt="Popsicle" style="width:100%">
+                <h3>France packet</h3>
+                <p>10$</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="japan.png" alt="Salmon" style="width:100%">
+                <h3>Japan packet</h3>
+                <p>10$</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="germany.png" alt="Sandwich" style="width:100%">
+                <h3>Germany packet</h3>
+                <p>10$</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="usa.png" alt="Croissant" style="width:100%">
+                <h3>America packet</h3>
+                <p>10$</p>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="w3-center w3-padding-32">
+            <div class="w3-bar">
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+                <a href="#1" class="w3-bar-item w3-black w3-button">1</a>
+                <a href="#2" class="w3-bar-item w3-button w3-hover-black">2</a>
+                <a href="#3" class="w3-bar-item w3-button w3-hover-black">3</a>
+                <a href="#4" class="w3-bar-item w3-button w3-hover-black">4</a>
+                <a href="#5" class="w3-bar-item w3-button w3-hover-black">»</a>
+            </div>
+        </div>
+
+
+        <!-- Contact -->
+        <div class="w3-container w3-padding-64 w3-black w3-grayscale-min w3-xlarge">
+            <div class="w3-content">
+                <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
+                <p>Find us at some address at some place or call us at 0905657088</p>
+                <p><span class="w3-tag">LET'S GO!</span> With Bizare Adavature, you can easily travel around the world</p>
+                <p class="w3-xxlarge"><strong>Just</strong> send us a message:</p>
+                <form action="/action_page.php" target="_blank">
+                    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+                    <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Name of Device" required name="Name of Device"></p>
+                    <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+                    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+                    <p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
+                </form>
+            </div>
+        </div>
+
+        <footer class="w3-container w3-black w3-center w3-margin-top">
+            <p>Find me on
+                <a href="https://www.facebook.com/profile.php?id=100014377148812" target="_blank"> Facebook</a>.</p>
+            </p>
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+            <p>Powered Group 10</a>
+            </p>
+        </footer>
+
+        <!-- End page content -->
+    </div>
+
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>
